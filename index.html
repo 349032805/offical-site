@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>晋管借</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="晋管借"/>
+    <meta name="description" content="晋管借"/>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+   
+    <link rel="stylesheet" href="styles/reset.css">
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <style type="text/css">
+        body {
+            width: 100%;
+            overflow-x: hidden;
+            /*font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;*/
+             font-family: "Microsoft YaHei","PingFang SC";
+            line-height: 1em;
+            color: #333;
+            background-color: #fff;
+            font-size: 14px;
+        }
+        .top-logo {
+            width: 1200px;
+            margin: 0 auto;
+            height: 72px;
+            line-height: 72px;
+        }
+
+        .logo {
+            float: left;
+            height: 100%;
+        }
+
+        .logo img {
+            width: 132px;
+            height: 52px;
+            vertical-align: middle;
+        }
+
+        .index-title {
+            float: right;
+            font-size: 16px;
+            color: #ff4049;
+        }
+
+        .banner {
+            width: 100%;
+            height: 700px;
+            position: relative;
+        }
+
+        .banner-content {
+            width: 1200px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0 auto;            
+            z-index: 100;
+            background: transparent url('images/banner_info.png') no-repeat scroll 50% 100%;
+        }
+
+        .banner img {
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+        }
+        .advantage {
+            background: #fff;
+            width: 100%;
+        }
+
+        .advantage ul {
+            background: #fff;
+            height: 330px;
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .advantage ul li {
+            text-align: center;
+            padding-top: 45px;
+        }
+
+        .keyword {
+            font-size: 20px;
+            color: #ff4049;
+            margin: 20px 0 12px;
+            line-height: 24px;
+            font-weight: bold;
+        }
+
+        .explain {
+            font-size: 16px;
+            color: #ff8f94;
+        }
+
+        .borrow-step {
+            background: #fafafa;
+            padding: 60px 0 110px;
+        }
+
+        .borrow-step h3 {
+            font-size: 30px;
+            color: #323232;
+            text-align: center;
+            line-height: 1em;
+            margin-bottom: 100px;
+        }
+        .step {
+            width: 1050px;
+            margin: 0 auto;
+        }
+
+        .part {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .part-word {
+            padding-top: 85px;
+        }
+
+        .part-word h4 {
+            font-size: 36px;
+            color: #323232;
+            line-height: 1em;
+            margin-bottom: 20px;
+        }
+
+        .part-explain {
+            font-size: 24px;
+            color: #999;
+            line-height: 44px;
+            font-weight: 100
+        }
+
+        .footer {
+            background: url('images/bottom_bg.jpg') repeat-x;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .footer-container {
+            width: 1200px;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .qrcode {
+            padding-top: 46px;
+            display: flex;
+        }
+
+        .qrcode-box {
+            float: left;
+        }
+
+        .qrcode-box p {
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            line-height: 3em;
+        }
+
+        .box1 {
+            padding-left: 180px;
+        }
+
+        .box2 {
+            margin-left: 220px;
+        }
+
+        .app-download {
+            float: left;
+            margin-left: 40px;
+            padding-top: 25px;
+        }
+
+        .app-download img {
+            display: block;
+        }
+
+        .copyright {
+            font-size: 14px;
+            color: #fff;
+            margin-top: 40px;
+            text-align: center;
+            opacity: .6;
+        }
+
+    </style>
+
+  </head>
+  <body>
+     <!-- 1200px布局 -->
+     <!-- 顶部logo块状区域 -->
+     <section class="top-logo">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <p class="index-title">晋管借首页</p>
+     </section>
+
+     <!-- banner -->
+     <section class="banner">
+         <img src="images/banner_bg.png">
+         <div class="banner-content"></div>
+     </section>
+
+    <!-- 优势区 -->
+    <section class="advantage">
+        <ul>
+           <li>
+               <img src="images/big_icon_1.png">
+               <p class="keyword">零门槛</p>
+               <p class="explain">满18岁即可申请</p>
+           </li>
+            <li>
+               <img src="images/big_icon_2.png">
+               <p class="keyword">大额度</p>
+               <p class="explain">20万巨资带回家</p>
+           </li> 
+            <li>
+               <img src="images/big_icon_3.png">
+               <p class="keyword">快入账</p>
+               <p class="explain">5分钟瞬时到账</p>
+           </li> 
+            <li>
+               <img src="images/big_icon_4.png">
+               <p class="keyword">超灵活</p>
+               <p class="explain">24小时无间断放贷</p>
+           </li> 
+        </ul>
+    </section>
+
+    <!-- 借款步骤 -->
+    <section class="borrow-step">
+        <h3>轻松三步&nbsp;&nbsp;&nbsp;&nbsp;极速借款</h3>
+        <div class="step">
+            <!-- 下载app并注册 -->
+            <div class="download-register part">
+                <div class="part-word">
+                   <h4>下载APP并注册</h4>
+                   <p class="part-explain">App Store和各大应用市场</p> 
+                   <p class="part-explain">免费下载，一键完成注册</p> 
+                </div>
+                <div class="part-img">
+                    <img src="images/step1.png">
+                </div>
+            </div>
+
+            <!-- 激活额度 -->
+             <div class="act-quota part" style="margin-top: 60px;">
+               <div class="part-img">
+                    <img src="images/step2.png">
+                </div>
+                <div class="part-word">
+                   <h4>激活额度</h4>
+                   <p class="part-explain">身份证+手机号，全自动智能认证</p> 
+                   <p class="part-explain">轻松激活额度，5分钟money入账</p> 
+                </div>
+            </div>
+
+            <!-- 实时借款 -->
+            <div class="realtime-load part" style="margin-top: 60px;">
+                <div class="part-word">
+                   <h4>实时借款</h4>
+                   <p class="part-explain">应急借，放心借，极速借</p> 
+                   <p class="part-explain">随时随地、随时随刻、</p> 
+                   <p class="part-explain">随心而借</p> 
+                </div>
+                <div class="part-img">
+                    <img src="images/step3.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 底部 -->
+    <section class="footer">
+        <div class="footer-container">
+            <!-- 二维码 -->
+            <div class="qrcode">
+                <div class="qrcode-box box1">
+                    <img src="images/offical_qrcode.png">
+                    <p>关注官方微信</p>
+                </div>
+                 <div class="qrcode-box box2">
+                    <img src="images/app_qrcode.png">
+                    <p>晋管贷APP下载</p>
+                </div>
+
+                <div class="app-download">
+                    <img src="images/bottom_iphone.png">
+                    <img src="images/bottom_android.png" style="margin-top:55px;">
+                </div>
+            </div>
+
+            <!-- 底部版权 -->
+            <p class="copyright">CopyRight©2016 晋商消费金融&nbsp;&nbsp;|&nbsp;&nbsp;晋ICP备16003363号 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务热线：400-168-5858</p>
+        </div>
+    </section>
+
+  </body>
+</html>
